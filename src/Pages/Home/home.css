@@ -97,10 +97,122 @@ main {
     border-radius: 0px;
 }
 
+/* section popular products */
+
+.new-arrival {
+    padding-top: 100px !important;
+    padding-bottom: 80px !important;
+}
+
+.section-tittle {
+    margin-bottom: 60px !important;
+}
+
+.section-tittle h2 {
+    font-size: 36px;
+    display: block;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px !important;
+    text-transform: uppercase;
+}
+
+.section-tittle p {
+    color: #7F85A8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 15px !important;
+}
+
+.properties__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-tabs button {
+    display: block;
+    color: #010A44;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 20px 28px !important;
+    border: none !important;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+
+.nav-tabs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-tabs .active-content {
+    color: #FD8F5F !important;
+    background-color: #fff;
+    border-bottom: 2px solid #FD8F5F !important;
+}
+
+.properties__button nav {
+    width: 100%;
+}
 
 
 
-@media (min-width: 1400px) {}
+.active-content {
+    display: none;
+}
+
+.favorite-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 39px !important;
+}
+
+.sofa-text {
+    padding: 31px 15px !important;
+}
+
+
+
+.sofa-text a {
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+    line-height: 1.7;
+    margin-bottom: 20px !important;
+    color: black;
+    display: inline-block;
+    transition: .3s;
+}
+
+.sofa-text a:hover {
+    text-decoration: underline !important;
+}
+
+.sofa-text p {
+    color: #670000;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 1200px) {
     .col-xl-6 {
@@ -108,9 +220,20 @@ main {
         max-width: 50% !important;
     }
 
+    .col-xl-7 {
+        flex: 0 0 auto;
+        width: 58.33333333% !important;
+    }
+
+    .col-xl-12 {
+        flex: 0 0 auto;
+        width: 100% !important;
+    }
+
     .container {
         max-width: 1200px !important;
     }
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -124,6 +247,7 @@ main {
         width: 66.66666667% !important;
 
     }
+
 
     main {
         padding-right: 30px !important;
@@ -147,6 +271,11 @@ main {
     main {
         padding-right: 30px !important;
         padding-bottom: 40px !important;
+    }
+
+    .col-md-10 {
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
     }
 }
 
@@ -174,6 +303,9 @@ main {
 
     .slider-area .hero__caption p {
         padding-right: 0px !important;
+    }
+    .nav-tabs button{
+        padding: 18px 10px !important;
     }
 
 }
