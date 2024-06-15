@@ -7,7 +7,9 @@
     list-style: none;
     box-sizing: border-box;
 }
-
+.container{
+    margin: 0 auto !important;
+}
 body {
     font-family: "Poppins", sans-serif !important;
 }
@@ -55,6 +57,9 @@ body {
     transition: .3s;
     text-transform: capitalize;
 }
+.header-area .menu-wrapper .main-menu ul li a:hover{
+    color: #FC9568;
+}
 
 .header-right .form-box input {
     background: none;
@@ -86,6 +91,9 @@ textarea:focus {
     color: #010A44;
     font-size: 14px;
     font-weight: 600;
+}
+.account-btn:hover{
+    color: #FD8F5F;
 }
 
 .header-right .card-stor {
@@ -316,9 +324,9 @@ textarea:focus {
     }
 
     .mobile_menu {
-        right: 18px;
+        right: 32px;
         width: 96% !important;
-        top: 98px;
+        top: 70px;
     }
 
     .header-right {
@@ -337,9 +345,9 @@ textarea:focus {
     }
 
     .mobile_menu {
-        right: 13px;
-        top: 74px;
-        width: 96% !important;
+        right: 16px;
+        top: 51px;
+        width: 116% !important;
     }
 
     .header-right {
@@ -383,8 +391,9 @@ textarea:focus {
     }
 
     .mobile_menu {
-        right: 13px;
-        width: 94% !important;
+        right: -16px;
+        top: 17px;
+        width: 124% !important;
     }
 
     .header-right .form-box {
