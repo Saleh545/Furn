@@ -201,10 +201,44 @@ main {
 }
 
 
+/* visit tailor */
+.visit-tailor-area {
+    background: #F2E1D9;
+    display: flex;
+    align-items: center;
+}
+.visit-tailor-area .tailor-offers {
+    background-image: url("https://preview.colorlib.com/theme/furn/assets/img/gallery/visit_bg.png");
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 570px;
+    width: 55%;
+}
+
+
+.visit-tailor-area .tailor-details {
+    width: 41%;
+    padding: 20px 20px 20px 60px !important;
+}
 
 
 
-
+.visit-tailor-area .tailor-details h2 {
+    font-size: 40px;
+    display: block;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px !important;
+    text-transform: uppercase;
+}
+.visit-tailor-area .tailor-details p {
+    color: #010A44;
+    line-height: 1.7;
+    font-size: 14px;
+    margin-bottom: 15px !important;
+}
 
 
 
@@ -306,6 +340,24 @@ main {
     }
     .nav-tabs button{
         padding: 18px 10px !important;
+    }
+    .visit-tailor-area {
+        display: block;
+    }
+    .visit-tailor-area .tailor-offers {
+        width: 100%;
+        height: 500px;
+    }
+    .visit-tailor-area .tailor-details {
+        width: 100%;
+        padding: 50px 30px !important;
+    }
+    .visit-tailor-area .tailor-details h2 {
+        font-size: 29px;
+    }
+    .hero_btn{
+        padding: 22px 24px !important;
+        font-size: 16px;
     }
 
 }

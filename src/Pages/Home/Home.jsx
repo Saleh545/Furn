@@ -111,270 +111,294 @@ const Home = () => {
                     </button>
                   </div>
                   <div className="popular-content">
-                    <div className={activeIndex === 1 ? " favorite-flex " : "active-content"}>
-                        <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                          <div className="favorite-img">
-                            <img
-                              src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular1.png"
-                              alt=""
-                            />
-                            <div className="sofa-text">
-                              <Link to="/product">
-                                Bly Microfiber / Microsuede 56" Armless Loveseat
-                              </Link>{" "}
-                              <p>$545</p>
-                            </div>
+                    <div
+                      className={
+                        activeIndex === 1 ? " favorite-flex " : "active-content"
+                      }
+                    >
+                      <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
+                        <div className="favorite-img">
+                          <img
+                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular1.png"
+                            alt=""
+                          />
+                          <div className="sofa-text">
+                            <Link to="/product">
+                              Bly Microfiber / Microsuede 56" Armless Loveseat
+                            </Link>{" "}
+                            <p>$545</p>
                           </div>
                         </div>
-                        <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                          <div className="favorite-img">
-                            <img
-                              src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular2.png"
-                              alt=""
-                            />
-                            <div className="sofa-text">
-                              <Link to="/product">
-                                Bly Microfiber / Microsuede 56" Armless Loveseat
-                              </Link>{" "}
-                              <p>$545</p>
-                            </div>
+                      </div>
+                      <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
+                        <div className="favorite-img">
+                          <img
+                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular2.png"
+                            alt=""
+                          />
+                          <div className="sofa-text">
+                            <Link to="/product">
+                              Bly Microfiber / Microsuede 56" Armless Loveseat
+                            </Link>{" "}
+                            <p>$545</p>
                           </div>
                         </div>
-                        <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                          <div className="favorite-img">
-                            <img
-                              src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular3.png"
-                              alt=""
-                            />
-                            <div className="sofa-text">
-                              <Link to="/product">
-                                Bly Microfiber / Microsuede 56" Armless Loveseat
-                              </Link>{" "}
-                              <p>$545</p>
-                            </div>
+                      </div>
+                      <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
+                        <div className="favorite-img">
+                          <img
+                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular3.png"
+                            alt=""
+                          />
+                          <div className="sofa-text">
+                            <Link to="/product">
+                              Bly Microfiber / Microsuede 56" Armless Loveseat
+                            </Link>{" "}
+                            <p>$545</p>
                           </div>
                         </div>
+                      </div>
                     </div>
-                    <div className={activeIndex === 2 ? " favorite-flex " : "active-content"}>
-                        <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                          <div className="favorite-img">
-                            <img
-                              src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular4.png"
-                              alt=""
-                            />
-                            <div className="sofa-text">
-                              <Link to="/product">
-                                Bly Microfiber / Microsuede 56" Armless Loveseat
-                              </Link>{" "}
-                              <p>$545</p>
-                            </div>
+                    <div
+                      className={
+                        activeIndex === 2 ? " favorite-flex " : "active-content"
+                      }
+                    >
+                      <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
+                        <div className="favorite-img">
+                          <img
+                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular4.png"
+                            alt=""
+                          />
+                          <div className="sofa-text">
+                            <Link to="/product">
+                              Bly Microfiber / Microsuede 56" Armless Loveseat
+                            </Link>{" "}
+                            <p>$545</p>
                           </div>
                         </div>
-                        <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                          <div className="favorite-img">
-                            <img
-                              src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular5.png"
-                              alt=""
-                            />
-                            <div className="sofa-text">
-                              <Link to="/product">
-                                Bly Microfiber / Microsuede 56" Armless Loveseat
-                              </Link>{" "}
-                              <p>$545</p>
-                            </div>
+                      </div>
+                      <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
+                        <div className="favorite-img">
+                          <img
+                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular5.png"
+                            alt=""
+                          />
+                          <div className="sofa-text">
+                            <Link to="/product">
+                              Bly Microfiber / Microsuede 56" Armless Loveseat
+                            </Link>{" "}
+                            <p>$545</p>
                           </div>
                         </div>
-                        <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                          <div className="favorite-img">
-                            <img
-                              src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular6.png"
-                              alt=""
-                            />
-                            <div className="sofa-text">
-                              <Link to="/product">
-                                Bly Microfiber / Microsuede 56" Armless Loveseat
-                              </Link>{" "}
-                              <p>$545</p>
-                            </div>
+                      </div>
+                      <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
+                        <div className="favorite-img">
+                          <img
+                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular6.png"
+                            alt=""
+                          />
+                          <div className="sofa-text">
+                            <Link to="/product">
+                              Bly Microfiber / Microsuede 56" Armless Loveseat
+                            </Link>{" "}
+                            <p>$545</p>
                           </div>
                         </div>
+                      </div>
                     </div>
-                    <div className={ activeIndex === 3 ? " favorite-flex " : "active-content"}>
-                        <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                          <div className="favorite-img">
-                            <img
-                              src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular7.png"
-                              alt=""
-                            />
-                            <div className="sofa-text">
-                              <Link to="/product">
-                                Bly Microfiber / Microsuede 56" Armless Loveseat
-                              </Link>{" "}
-                              <p>$545</p>
-                            </div>
+                    <div
+                      className={
+                        activeIndex === 3 ? " favorite-flex " : "active-content"
+                      }
+                    >
+                      <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
+                        <div className="favorite-img">
+                          <img
+                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular7.png"
+                            alt=""
+                          />
+                          <div className="sofa-text">
+                            <Link to="/product">
+                              Bly Microfiber / Microsuede 56" Armless Loveseat
+                            </Link>{" "}
+                            <p>$545</p>
                           </div>
                         </div>
-                        <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                          <div className="favorite-img">
-                            <img
-                              src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular8.png"
-                              alt=""
-                            />
-                            <div className="sofa-text">
-                              <Link to="/product">
-                                Bly Microfiber / Microsuede 56" Armless Loveseat
-                              </Link>{" "}
-                              <p>$545</p>
-                            </div>
+                      </div>
+                      <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
+                        <div className="favorite-img">
+                          <img
+                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular8.png"
+                            alt=""
+                          />
+                          <div className="sofa-text">
+                            <Link to="/product">
+                              Bly Microfiber / Microsuede 56" Armless Loveseat
+                            </Link>{" "}
+                            <p>$545</p>
                           </div>
                         </div>
-                        <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                          <div className="favorite-img">
-                            <img
-                              src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular9.png"
-                              alt=""
-                            />
-                            <div className="sofa-text">
-                              <Link to="/product">
-                                Bly Microfiber / Microsuede 56" Armless Loveseat
-                              </Link>{" "}
-                              <p>$545</p>
-                            </div>
+                      </div>
+                      <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
+                        <div className="favorite-img">
+                          <img
+                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular9.png"
+                            alt=""
+                          />
+                          <div className="sofa-text">
+                            <Link to="/product">
+                              Bly Microfiber / Microsuede 56" Armless Loveseat
+                            </Link>{" "}
+                            <p>$545</p>
                           </div>
                         </div>
+                      </div>
                     </div>
 
-                    <div className={ activeIndex === 4 ? " favorite-flex " : "active-content"}>
-                        <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                          <div className="favorite-img">
-                            <img
-                              src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular8.png"
-                              alt=""
-                            />
-                            <div className="sofa-text">
-                              <Link to="/product">
-                                Bly Microfiber / Microsuede 56" Armless Loveseat
-                              </Link>{" "}
-                              <p>$545</p>
-                            </div>
+                    <div
+                      className={
+                        activeIndex === 4 ? " favorite-flex " : "active-content"
+                      }
+                    >
+                      <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
+                        <div className="favorite-img">
+                          <img
+                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular8.png"
+                            alt=""
+                          />
+                          <div className="sofa-text">
+                            <Link to="/product">
+                              Bly Microfiber / Microsuede 56" Armless Loveseat
+                            </Link>{" "}
+                            <p>$545</p>
                           </div>
                         </div>
-                        <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                          <div className="favorite-img">
-                            <img
-                              src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular6.png"
-                              alt=""
-                            />
-                            <div className="sofa-text">
-                              <Link to="/product">
-                                Bly Microfiber / Microsuede 56" Armless Loveseat
-                              </Link>{" "}
-                              <p>$545</p>
-                            </div>
+                      </div>
+                      <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
+                        <div className="favorite-img">
+                          <img
+                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular6.png"
+                            alt=""
+                          />
+                          <div className="sofa-text">
+                            <Link to="/product">
+                              Bly Microfiber / Microsuede 56" Armless Loveseat
+                            </Link>{" "}
+                            <p>$545</p>
                           </div>
                         </div>
-                        <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                          <div className="favorite-img">
-                            <img
-                              src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular2.png"
-                              alt=""
-                            />
-                            <div className="sofa-text">
-                              <Link to="/product">
-                                Bly Microfiber / Microsuede 56" Armless Loveseat
-                              </Link>{" "}
-                              <p>$545</p>
-                            </div>
+                      </div>
+                      <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
+                        <div className="favorite-img">
+                          <img
+                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular2.png"
+                            alt=""
+                          />
+                          <div className="sofa-text">
+                            <Link to="/product">
+                              Bly Microfiber / Microsuede 56" Armless Loveseat
+                            </Link>{" "}
+                            <p>$545</p>
                           </div>
                         </div>
+                      </div>
                     </div>
-                    <div className={ activeIndex === 5 ? " favorite-flex " : "active-content"}>
-                        <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                          <div className="favorite-img">
-                            <img
-                              src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular2.png"
-                              alt=""
-                            />
-                            <div className="sofa-text">
-                              <Link to="/product">
-                                Bly Microfiber / Microsuede 56" Armless Loveseat
-                              </Link>{" "}
-                              <p>$545</p>
-                            </div>
+                    <div
+                      className={
+                        activeIndex === 5 ? " favorite-flex " : "active-content"
+                      }
+                    >
+                      <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
+                        <div className="favorite-img">
+                          <img
+                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular2.png"
+                            alt=""
+                          />
+                          <div className="sofa-text">
+                            <Link to="/product">
+                              Bly Microfiber / Microsuede 56" Armless Loveseat
+                            </Link>{" "}
+                            <p>$545</p>
                           </div>
                         </div>
-                        <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                          <div className="favorite-img">
-                            <img
-                              src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular4.png"
-                              alt=""
-                            />
-                            <div className="sofa-text">
-                              <Link to="/product">
-                                Bly Microfiber / Microsuede 56" Armless Loveseat
-                              </Link>{" "}
-                              <p>$545</p>
-                            </div>
+                      </div>
+                      <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
+                        <div className="favorite-img">
+                          <img
+                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular4.png"
+                            alt=""
+                          />
+                          <div className="sofa-text">
+                            <Link to="/product">
+                              Bly Microfiber / Microsuede 56" Armless Loveseat
+                            </Link>{" "}
+                            <p>$545</p>
                           </div>
                         </div>
-                        <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                          <div className="favorite-img">
-                            <img
-                              src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular1.png"
-                              alt=""
-                            />
-                            <div className="sofa-text">
-                              <Link to="/product">
-                                Bly Microfiber / Microsuede 56" Armless Loveseat
-                              </Link>{" "}
-                              <p>$545</p>
-                            </div>
+                      </div>
+                      <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
+                        <div className="favorite-img">
+                          <img
+                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular1.png"
+                            alt=""
+                          />
+                          <div className="sofa-text">
+                            <Link to="/product">
+                              Bly Microfiber / Microsuede 56" Armless Loveseat
+                            </Link>{" "}
+                            <p>$545</p>
                           </div>
                         </div>
+                      </div>
                     </div>
-                    <div className={ activeIndex === 6 ? " favorite-flex " : "active-content"}>
-                        <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                          <div className="favorite-img">
-                            <img
-                              src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular7.png"
-                              alt=""
-                            />
-                            <div className="sofa-text">
-                              <Link to="/product">
-                                Bly Microfiber / Microsuede 56" Armless Loveseat
-                              </Link>{" "}
-                              <p>$545</p>
-                            </div>
+                    <div
+                      className={
+                        activeIndex === 6 ? " favorite-flex " : "active-content"
+                      }
+                    >
+                      <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
+                        <div className="favorite-img">
+                          <img
+                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular7.png"
+                            alt=""
+                          />
+                          <div className="sofa-text">
+                            <Link to="/product">
+                              Bly Microfiber / Microsuede 56" Armless Loveseat
+                            </Link>{" "}
+                            <p>$545</p>
                           </div>
                         </div>
-                        <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                          <div className="favorite-img">
-                            <img
-                              src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular3.png"
-                              alt=""
-                            />
-                            <div className="sofa-text">
-                              <Link to="/product">
-                                Bly Microfiber / Microsuede 56" Armless Loveseat
-                              </Link>{" "}
-                              <p>$545</p>
-                            </div>
+                      </div>
+                      <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
+                        <div className="favorite-img">
+                          <img
+                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular3.png"
+                            alt=""
+                          />
+                          <div className="sofa-text">
+                            <Link to="/product">
+                              Bly Microfiber / Microsuede 56" Armless Loveseat
+                            </Link>{" "}
+                            <p>$545</p>
                           </div>
                         </div>
-                        <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                          <div className="favorite-img">
-                            <img
-                              src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular2.png"
-                              alt=""
-                            />
-                            <div className="sofa-text">
-                              <Link to="/product">
-                                Bly Microfiber / Microsuede 56" Armless Loveseat
-                              </Link>{" "}
-                              <p>$545</p>
-                            </div>
+                      </div>
+                      <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
+                        <div className="favorite-img">
+                          <img
+                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular2.png"
+                            alt=""
+                          />
+                          <div className="sofa-text">
+                            <Link to="/product">
+                              Bly Microfiber / Microsuede 56" Armless Loveseat
+                            </Link>{" "}
+                            <p>$545</p>
                           </div>
                         </div>
+                      </div>
                     </div>
                   </div>
                 </nav>
@@ -383,6 +407,26 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <div className="visit-tailor-area fix">
+        <div className="tailor-offers"></div>
+        <div className="tailor-details">
+          <h2>
+            Best Furniture <br /> manufacturer
+          </h2>
+          <p>
+            Suspendisse varius enim in eros elementum tristique. Duis cursus, mi
+            quis viverra ornare, eros dolor interdum nulla.
+          </p>
+          <p>
+            Suspendisse varius enim in eros elementum tristique. Duis cursus, mi
+            quis viverra ornare, eros dolor interdum nulla.
+          </p>
+          <div className="hero-btn" data-aos="fade-up">
+                    <NavLink className=" hero_btn">Discover More</NavLink>
+                  </div>
+        </div>
+      </div>
     </div>
   );
 };
