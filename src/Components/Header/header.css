@@ -391,9 +391,9 @@ textarea:focus {
     }
 
     .mobile_menu {
-        right: -16px;
+        right: -3px;
         top: 17px;
-        width: 124% !important;
+        width: 123% !important;
     }
 
     .header-right .form-box {
