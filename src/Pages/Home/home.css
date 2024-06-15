@@ -175,8 +175,12 @@ main {
 .sofa-text {
     padding: 31px 15px !important;
 }
-
-
+.new-arrival  img {
+    width: 100%;
+}
+.sofa-card{
+    padding: p 15px !important;
+}
 
 .sofa-text a {
     font-weight: 500;
@@ -187,6 +191,7 @@ main {
     color: black;
     display: inline-block;
     transition: .3s;
+    text-align: center;
 }
 
 .sofa-text a:hover {
@@ -198,6 +203,7 @@ main {
     font-size: 20px;
     font-weight: 600;
     display: block;
+    text-align: center;
 }
 
 
@@ -239,8 +245,24 @@ main {
     font-size: 14px;
     margin-bottom: 15px !important;
 }
+.like-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 15px !important;
+}
+.section-tittle h2 {
+    font-size: 28px;
+}
 
-
+.like-flex .sofa-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px !important;
+}
 
 
 
