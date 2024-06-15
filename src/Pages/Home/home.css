@@ -250,7 +250,6 @@ main {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0 15px !important;
 }
 .section-tittle h2 {
     font-size: 28px;
