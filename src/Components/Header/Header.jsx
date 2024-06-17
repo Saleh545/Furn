@@ -111,7 +111,7 @@ const Header = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-12 mobile-bar">
+              <div className="col-12 ">
                 <div className="mobile_menu d-block d-lg-none">
                   <div className="slicknav_menu">
                     <div className="toggle-menu">
@@ -148,6 +148,8 @@ const Header = () => {
                   </div>
                 </div>
               </div>
+
+              
             </div>
           </div>
         </div>

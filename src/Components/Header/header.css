@@ -7,9 +7,11 @@
     list-style: none;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     margin: 0 auto !important;
 }
+
 body {
     font-family: "Poppins", sans-serif !important;
 }
@@ -17,6 +19,7 @@ body {
 .row>* {
     width: inherit !important;
 }
+
 
 .header-area {
     background: #F2E1D9;
@@ -57,14 +60,15 @@ body {
     transition: .3s;
     text-transform: capitalize;
 }
-.header-area .menu-wrapper .main-menu ul li a:hover{
+
+.header-area .menu-wrapper .main-menu ul li a:hover {
     color: #FC9568;
 }
 
 .header-right .form-box input {
     background: none;
     padding: 0px;
-    width: 260px;
+    width: 250px;
     height: 42px;
     border: 0;
     border-bottom: 1px solid #C2B6BB;
@@ -92,7 +96,8 @@ textarea:focus {
     font-size: 14px;
     font-weight: 600;
 }
-.account-btn:hover{
+
+.account-btn:hover {
     color: #FD8F5F;
 }
 
@@ -130,11 +135,15 @@ textarea:focus {
     padding-left: 15px !important;
 }
 
+.col-12 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+
 .mobile_menu {
-    position: absolute;
-    right: 0;
-    top: 64px;
-    width: 100% !important;
+    position: absolute !important;
+    right: 0px;
+    width: 100%;
     z-index: 99;
 }
 
@@ -240,18 +249,18 @@ textarea:focus {
     display: inline;
 }
 
-.header-area .menu-wrapper .main-menu ul ul.submenu > li > a {
+.header-area .menu-wrapper .main-menu ul ul.submenu>li>a {
     padding: 6px 10px !important;
     font-size: 16px;
     text-transform: capitalize;
 }
 
-.header-area .menu-wrapper .main-menu ul ul.submenu > li {
+.header-area .menu-wrapper .main-menu ul ul.submenu>li {
     margin-left: 7px !important;
     display: block;
 }
 
-.header-area .menu-wrapper .main-menu ul li:hover > ul.submenu {
+.header-area .menu-wrapper .main-menu ul li:hover>ul.submenu {
     visibility: visible;
     opacity: 1;
     top: 100%;
@@ -285,7 +294,7 @@ textarea:focus {
     overflow: hidden;
 }
 
-.header-area .menu-wrapper .main-menu ul ul.submenu > li > a:hover {
+.header-area .menu-wrapper .main-menu ul ul.submenu>li>a:hover {
     padding-left: 13px !important;
     color: #FD8F5F;
 }
@@ -305,8 +314,13 @@ textarea:focus {
         padding-left: 160px !important;
         padding-right: 28px !important;
     }
-    .header-right{
+
+    .header-right {
         width: 100%;
+    }
+
+    .header-right .form-box input {
+        width: 210px;
     }
 
     .header-area .menu-wrapper .logo img {
@@ -324,13 +338,13 @@ textarea:focus {
     }
 
     .mobile_menu {
-        right: 32px;
-        width: 96% !important;
-        top: 70px;
+        top: 71px;
+
     }
 
     .header-right {
-        height: 3.5vh !important;
+        height: 100% !important;
+        align-items: center !important;
     }
 }
 
@@ -341,14 +355,10 @@ textarea:focus {
 
     .header-area {
         height: 9.5vh !important;
-        padding-left: 117px !important;
+        padding-left: 0 !important;
     }
 
-    .mobile_menu {
-        right: 16px;
-        top: 51px;
-        width: 116% !important;
-    }
+
 
     .header-right {
         height: 9.5vh !important;
@@ -356,26 +366,34 @@ textarea:focus {
 }
 
 @media (max-width: 576px) {
+
     .header-area .menu-wrapper .logo img {
-        width: 80px !important;
+        width: 100px;
     }
 
     .header-area {
-        padding-left: 90px !important;
-        padding-right: 28px !important;
+        padding: 0 !important;
         justify-content: center !important;
     }
-    .header-right{
+
+    .header-right {
+        padding-left: 90px !important;
+        padding-right: 28px !important;
+    }
+
+    .header-right {
         width: 100% !important;
         display: flex;
         /* justify-content: space-between; */
     }
+
     .search {
         width: 100% !important;
         display: flex;
         justify-content: space-between;
     }
-    .search ul{
+
+    .search ul {
         width: 100% !important;
         display: flex;
         justify-content: space-between;
@@ -390,11 +408,7 @@ textarea:focus {
         justify-content: flex-start !important;
     }
 
-    .mobile_menu {
-        right: -3px;
-        top: 17px;
-        width: 123% !important;
-    }
+
 
     .header-right .form-box {
         margin-right: 10px !important;
