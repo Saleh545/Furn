@@ -5,6 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { TfiInstagram } from "react-icons/tfi";
+import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(1);
@@ -695,6 +696,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
