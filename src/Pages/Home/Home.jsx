@@ -4,6 +4,7 @@ import "./home.css";
 import { Link, NavLink } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { TfiInstagram } from "react-icons/tfi";
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(1);
@@ -36,7 +37,6 @@ const Home = () => {
           </div>
         </div>
       </main>
-
 
       <section className="properties new-arrival fix">
         <div className="container">
@@ -425,66 +425,272 @@ const Home = () => {
             quis viverra ornare, eros dolor interdum nulla.
           </p>
           <div className="hero-btn" data-aos="fade-up">
-                    <NavLink className=" hero_btn">Discover More</NavLink>
-                  </div>
+            <NavLink className=" hero_btn" to="/product">
+              Discover More
+            </NavLink>
+          </div>
         </div>
       </div>
-
-
 
       <div class="new-arrival new-arrival2">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-8 col-md-10">
-              <div className="section-tittle mb-60 text-center wow  " data-aos="fade-up">
+              <div
+                className="section-tittle mb-60 text-center wow  "
+                data-aos="fade-up"
+              >
                 <h2>Products you may like</h2>
-                <p>Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
-
+                <p>
+                  Suspendisse varius enim in eros elementum tristique. Duis
+                  cursus, mi quis viverra ornare, eros dolor interdum nulla.
+                </p>
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row  ">
             <div className="like-flex">
-              <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                        <div className="favorite-img">
-                          <img
-                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular4.png"
-                            alt=""
-                          />
-                          <div className="sofa-text">
-                            <Link to="/product">
-                              Bly Microfiber / Microsuede 56" Armless Loveseat
-                            </Link>{" "}
-                            <p>$545</p>
-                          </div>
-                        </div>
-                      </div>  <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                        <div className="favorite-img">
-                          <img
-                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular5.png"
-                            alt=""
-                          />
-                          <div className="sofa-text">
-                            <Link to="/product">
-                              Bly Microfiber / Microsuede 56" Armless Loveseat
-                            </Link>{" "}
-                            <p>$545</p>
-                          </div>
-                        </div>
-                      </div>  <div className="sofa-card col-lg-4 col-md-6 col-sm-6">
-                        <div className="favorite-img">
-                          <img
-                            src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular6.png"
-                            alt=""
-                          />
-                          <div className="sofa-text">
-                            <Link to="/product">
-                              Bly Microfiber / Microsuede 56" Armless Loveseat
-                            </Link>{" "}
-                            <p>$545</p>
-                          </div>
-                        </div>
-                      </div>
+              <div
+                className="sofa-card col-lg-4 col-md-6 col-sm-6"
+                data-aos="fade-up"
+              >
+                <div className="favorite-img">
+                  <img
+                    src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular4.png"
+                    alt=""
+                  />
+                  <div className="sofa-text">
+                    <Link to="/product">
+                      Bly Microfiber / Microsuede 56" Armless Loveseat
+                    </Link>{" "}
+                    <p>$545</p>
+                  </div>
+                </div>
+              </div>{" "}
+              <div
+                className="sofa-card col-lg-4 col-md-6 col-sm-6"
+                data-aos="fade-up"
+              >
+                <div className="favorite-img">
+                  <img
+                    src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular5.png"
+                    alt=""
+                  />
+                  <div className="sofa-text">
+                    <Link to="/product">
+                      Bly Microfiber / Microsuede 56" Armless Loveseat
+                    </Link>{" "}
+                    <p>$545</p>
+                  </div>
+                </div>
+              </div>{" "}
+              <div
+                className="sofa-card col-lg-4 col-md-6 col-sm-6"
+                data-aos="fade-up"
+              >
+                <div className="favorite-img">
+                  <img
+                    src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular6.png"
+                    alt=""
+                  />
+                  <div className="sofa-text">
+                    <Link to="/product">
+                      Bly Microfiber / Microsuede 56" Armless Loveseat
+                    </Link>{" "}
+                    <p>$545</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row  justify-content-center ">
+            <Link className="border-btn mt-4" data-aos="fade-up" to="/product">
+              Discover More
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="instagram-area">
+        <div className="container-fluid">
+          <div className="row align-items-center d-flex">
+            <div className="col-xl-3 col-lg-4 col-md-6">
+              <div className="instra-tittle mb-40">
+                <div className="section-tittle">
+                  <img
+                    src="https://preview.colorlib.com/theme/furn/assets/img/gallery/insta.png"
+                    alt=""
+                  />
+                  <h2>Get Inspired with Instagram</h2>
+                  <p>
+                    Suspendisse varius enim in eros elementum tristique. Duis
+                    cursus, mi quis viverra ornare, eros dolor interdum nulla.
+                  </p>
+                  <Link className="border-btn" to="/product">
+                    Discover More
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-9 col-lg-8">
+              <div className="row no-gutters">
+                <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                  <div className="single-instagram">
+                    <img
+                      className="w-100"
+                      src="https://preview.colorlib.com/theme/furn/assets/img//gallery/instra1.png"
+                      alt=""
+                    />
+                    <Link>
+                      <TfiInstagram className="ti-instagram" />
+                    </Link>
+                  </div>
+                </div>
+                <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                  <div className="single-instagram">
+                    <img
+                      className="w-100"
+                      src="https://preview.colorlib.com/theme/furn/assets/img//gallery/instra2.png"
+                      alt=""
+                    />
+
+                    <Link>
+                      <TfiInstagram className="ti-instagram" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="new-arrival new-arrival2">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-7 col-lg-8 col-md-10">
+              <div
+                className="section-tittle mb-60 text-center wow fadeInUp"
+                data-aos="fade-up"
+              >
+                <h2>Top Pick</h2>
+                <p>
+                  Suspendisse varius enim in eros elementum tristique. Duis
+                  cursus, mi quis viverra ornare, eros dolor interdum nulla.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="row ">
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <div
+                className="single-new-arrival mb-50 text-center wow fadeInUp"
+                data-aos="fade-up"
+              >
+                <div className="popular-img">
+                  <img
+                    src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular7.png"
+                    alt=""
+                  />
+                </div>
+                <div className="popular-caption">
+                  <Link>Bly Microfiber / Microsuede 56" Armless Loveseat</Link>
+                  <span>$545</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <div
+                className="single-new-arrival mb-50 text-center wow fadeInUp"
+                data-aos="fade-up"
+              >
+                <div className="popular-img">
+                  <img
+                    src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular8.png"
+                    alt=""
+                  />
+                </div>
+                <div className="popular-caption">
+                  <Link>Bly Microfiber / Microsuede 56" Armless Loveseat</Link>
+                  <span>$545</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <div
+                className="single-new-arrival mb-50 text-center wow fadeInUp"
+                data-aos="fade-up"
+              >
+                <div className="popular-img">
+                  <img
+                    src="https://preview.colorlib.com/theme/furn/assets/img/gallery/popular9.png"
+                    alt=""
+                  />
+                </div>
+                <div className="popular-caption">
+                  <Link>Bly Microfiber / Microsuede 56" Armless Loveseat</Link>
+                  <span>$545</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <Link className="border-btn" to="/product">
+              Discover More
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className="categories-area section-padding40 gray-bg">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3 col-md-6 col-sm-6">
+              <div className="single-cat mb-50 wow fadeInUp">
+                <div className="cat-icon">
+                  <img src="https://preview.colorlib.com/theme/furn/assets/img/icon/services1.svg" alt="" />
+                </div>
+                <div className="cat-cap">
+                  <h5>Fast & Free Delivery</h5>
+                  <p>Free delivery on all orders</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-6">
+              <div className="single-cat mb-50 wow fadeInUp">
+                <div className="cat-icon">
+                  <img src="https://preview.colorlib.com/theme/furn/assets/img/icon/services2.svg" alt="" />
+                </div>
+                <div className="cat-cap">
+                  <h5>Secure Payment</h5>
+                  <p>Free delivery on all orders</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-6">
+              <div className="single-cat mb-50 wow fadeInUp">
+                <div className="cat-icon">
+                  <img src="https://preview.colorlib.com/theme/furn/assets/img/icon/services3.svg" alt="" />
+                </div>
+                <div className="cat-cap">
+                  <h5>Money Back Guarantee</h5>
+                  <p>Free delivery on all orders</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-6">
+              <div className="single-cat mb-50 wow fadeInUp">
+                <div className="cat-icon">
+                  <img src="https://preview.colorlib.com/theme/furn/assets/img/icon/services4.svg" alt="" />
+                </div>
+                <div className="cat-cap">
+                  <h5>Online Support</h5>
+                  <p>Free delivery on all orders</p>
+                  
+                </div>
+              </div>
             </div>
           </div>
         </div>
