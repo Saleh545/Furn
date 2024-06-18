@@ -1,0 +1,45 @@
+.slider-height2 {
+    min-height: 275px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("https://preview.colorlib.com/theme/furn/assets/img/hero/h2_hero1.png");
+
+}
+
+.hero__caption2 h1 {
+    color: #fff !important;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 14px !important;
+    line-height: 1.2;
+    text-transform: uppercase;
+     z-index: 99;
+}
+
+.breadcrumb a {
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    line-height: 1;
+    font-weight: 500;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block !important;
+    color: #fff !important;
+    content: ">" !important;
+    font-size: 17px !important;
+    line-height: 1 !important;
+    padding: 0 4px !important;
+    padding-right: 8px  !important;
+    float: none !important;
+}
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: .75rem 1rem !important;
+    margin-bottom: 1rem !important;
+    list-style: none;
+    background-color: #e9ecef;
+}

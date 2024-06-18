@@ -1,0 +1,19 @@
+.section-padding40 {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+.section-tittle h2 {
+    font-size: 36px;
+    display: block;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.section-tittle p.pera {
+    color: #646D77;
+    font-size: 20px !important;
+    font-weight: 400;
+    line-height: 1.7;
+    padding-top: 20px !important;
+}
