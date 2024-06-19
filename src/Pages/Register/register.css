@@ -1,0 +1,104 @@
+.register-form-area {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.register-form-area .register-form {
+    background: #fff;
+    padding: 55px 60px 50px 50px !important;
+    box-shadow: 0px 10px 30px 0px rgba(13, 12, 13, 0.2);
+}
+.register-form-area .register-form .register-heading span {
+    color: #140C40;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 16px !important;
+    display: block;
+    text-transform: capitalize;
+}
+.register-form-area .register-form .input-box {
+    padding-top: 35px !important;
+    padding-bottom: 60px !important;
+}
+.register-form-area .register-form .input-box .single-input-fields label {
+    display: block;
+    font-size: 17px;
+    margin-bottom: 6px !important;
+    color: #140C40;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align: left;
+}
+.register-form-area .register-form .input-box .single-input-fields input {
+    border: 1px solid #C9C9C9;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px !important;
+    padding: 0 25px !important;
+    color: #000;
+}
+.register-form-area .register-form .register-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.register-form-area .register-form .register-footer p {
+    margin: 0 !important;
+    color: #646D77;
+}
+.register-form-area .register-form .register-footer p a {
+    color: #FD8F5F;
+}
+.submit-btn3 {
+    background: #FD8F5F;
+    height: 60px;
+    padding: 10px 43px !important;
+    border: 0;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0px;
+}
+
+@media (max-width: 575px) {
+    .register-form-area .register-form .register-footer {
+        display: block;
+        text-align: start;
+    }
+    .register-form-area .register-form .register-footer p {
+        margin-bottom: 28px !important;
+        display: block;
+    }
+    .register-form-area .register-form {
+        padding: 40px 20px 20px 26px !important;
+    }
+    .row>* {
+        flex-shrink: 0;
+        width: 100% !important;
+        padding-right: calc(var(--bs-gutter-x)* .5);
+        padding-left: calc(var(--bs-gutter-x)* .5);
+        margin-top: var(--bs-gutter-y);
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .row>* {
+        flex-shrink: 0;
+        width: 100% !important;
+        padding-right: calc(var(--bs-gutter-x)* .5);
+        padding-left: calc(var(--bs-gutter-x)* .5);
+        margin-top: var(--bs-gutter-y);
+    }
+    .register-form-area .register-form .register-footer p {
+        margin-bottom: 28px !important;
+        display: block;
+    }
+    .register-form-area .register-form .register-footer {
+        display: block;
+        text-align: start;
+    }
+}
