@@ -1,8 +1,10 @@
 import React from 'react'
+import Spinner from '../../Components/spinner/Spinner'
 
 const Checkout = () => {
   return (
-    <div>Checkout</div>
+    <div>      <Spinner/>
+</div>
   )
 }
 

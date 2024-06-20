@@ -8,11 +8,13 @@ import Footer from "../../Components/Footer/Footer";
 import CategoriesArea from "../../Components/Categories area/CategoriesArea";
 import PopularProducts from "../../Components/PopularProducts/PopularProducts";
 import InstagramArea from "../../Components/instagram/InstagramArea";
+import Spinner from "../../Components/spinner/Spinner";
 
 const Home = () => {
  
   return (
     <div>
+      <Spinner/>
       <Header />
       <main>
         <div className="slider-area">

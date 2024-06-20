@@ -10,6 +10,8 @@
 
 .container {
     margin: 0 auto !important;
+    padding-right: calc(var(--bs-gutter-x)* .5) !important;
+    padding-left: calc(var(--bs-gutter-x)* .5) !important;
 }
 
 body {

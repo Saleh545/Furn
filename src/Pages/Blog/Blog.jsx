@@ -1,8 +1,10 @@
 import React from 'react'
+import Spinner from '../../Components/spinner/Spinner'
 
 const Blog = () => {
   return (
-    <div>Blog</div>
+    <div>      <Spinner/>
+</div>
   )
 }
 

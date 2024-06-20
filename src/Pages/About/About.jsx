@@ -5,10 +5,12 @@ import Footer from '../../Components/Footer/Footer'
 import CategoriesArea from '../../Components/Categories area/CategoriesArea'
 import InstagramArea from '../../Components/instagram/InstagramArea'
 import "./about.css"
+import Spinner from '../../Components/spinner/Spinner'
 
 const About = () => {
   return (
     <div>
+      <Spinner/>
       <Header/>
        <div className="single-slider hero-overly2  slider-height2 d-flex align-items-center slider-bg2 slick-slide slick-current slick-active">
         <div className="container">

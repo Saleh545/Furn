@@ -1,9 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./login.css"
+import Spinner from '../../Components/spinner/Spinner'
+
 const Login = () => {
   return (
     <div>
+            <Spinner/>
+
       <main className="login-bg">
         <div className="login-form-area">
           <div className="container">

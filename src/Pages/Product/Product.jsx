@@ -5,10 +5,14 @@ import CategoriesArea from "../../Components/Categories area/CategoriesArea";
 import { Link } from "react-router-dom";
 import "./product.css"
 import PopularProducts from "../../Components/PopularProducts/PopularProducts";
+import Spinner from '../../Components/spinner/Spinner'
+
 
 const Product = () => {
   return (
     <div>
+            <Spinner/>
+
       <Header />
 
 
