@@ -84,6 +84,9 @@
     border-left: 1px solid #eee;
     display: inline-block;
 }
+.cart_inner .table tbody tr td .media .d-flex {
+    padding-right: 30px !important;
+}
 .cart_area .product_count .input-number-increment:after {
     position: absolute;
     content: "";
