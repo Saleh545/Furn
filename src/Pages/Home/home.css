@@ -397,8 +397,7 @@ main {
 
 @media (min-width: 1200px) {
     .col-xl-3 {
-        flex: 0 0 auto;
-        width: 25% !important;
+        flex: 0 0 25% !important;        width: 25% !important;
     }
 
     .col-xl-4 {
@@ -443,8 +442,12 @@ main {
     }
 
     .col-lg-4 {
-        flex: 0 0 33.333333% ;
+        flex: 0 0 33.333333% !important;
         width: 33.33333333% !important;
+    }
+    .col-lg-5 {
+        flex: 0 0 41.66% !important;
+        width: 41.66666667% !important;
     }
 
     .col-lg-6 {
@@ -467,6 +470,9 @@ main {
     }
       main {
         padding-bottom: 40px !important;
+    }
+    .offset-lg-1 {
+        margin-left: 8.333333% !important;
     }
 }
 

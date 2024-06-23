@@ -322,7 +322,7 @@ textarea:focus {
     }
 
     .header-right .form-box input {
-        width: 210px;
+        width: 199px;
     }
 
     .header-area .menu-wrapper .logo img {
@@ -359,6 +359,9 @@ textarea:focus {
         height: 9.5vh !important;
         padding-left: 0 !important;
     }
+    .search{
+        padding-left: 160px !important;
+    }
 
 
 
@@ -371,6 +374,9 @@ textarea:focus {
 
     .header-area .menu-wrapper .logo img {
         width: 100px;
+    }
+    .search{
+        padding-left: 0 !important;
     }
 
     .header-area {
