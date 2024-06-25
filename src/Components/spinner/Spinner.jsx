@@ -20,7 +20,7 @@ const Spinner = () => {
             <div className="preloader-inner position-relative">
               <div className="preloader-circle"></div>
               <div className="preloader-img pere-text">
-                <img src="./public/images/loder.png"alt=""
+                <img src="https://preview.colorlib.com/theme/furn/assets/img/logo/loder.png"alt=""
                 />
               </div>
             </div>
